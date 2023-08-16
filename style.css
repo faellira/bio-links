@@ -29,7 +29,13 @@ body *{
     text-align: center;
     padding: 0 24px;
 }
-
+#profile img{
+    padding:16px;
+    width: 200px;
+}
+#description h1{
+margin: 0 0 8px;
+}
 ul {
     list-style: none;
 
