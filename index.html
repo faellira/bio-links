@@ -1,60 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br" class="light-mode">
+
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Prompt:wght@400;500;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Prompt:wght@400;500;800&display=swap"
+        rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bio - Perfil</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-<div id="container">
-    <div id="profile">
-        <img src="./assets/Avatar.png" alt="Foto de perfil de Rafael utilizando uma camisa amarela"/>
+    <div id="container">
+        <div id="page-settings">
+            <div id="profile">
+                <img src="./assets/Avatar.png" alt="Foto de perfil de Rafael utilizando uma camisa amarela" />
+            </div>
+            <div id="rectangle-switch">
+                <div id="btn-switch" onclick="ThemeMode()" onmouseenter="">
+                    <button></button>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        
+        <div id="description">
+            <h1>Rafael A L Souza</h1>
+            <p>Trabalhei por um pequeno periodo como Freelancer de Design, criando artes de divulgação, e agora
+                estou me aventurando na área do Front-end, durante meu Ensino médio cheguei a cursar Técnico em
+                informática, que foi
+                onde tive meu primeiro contato com programação, hoje estou em busca da primeira oportunidade na área.
+            </p>
+        </div>
+        <ul>
+            <li>
+                <a href="mailto:rafaelirasouza@gmail.com" target="_blank">
+                    <ion-icon class="icons" name="mail-open-outline"></ion-icon>
+                    <p>Email para contato</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/rafael-a-l-souza-026ab71a5/" target="_blank">
+                    <ion-icon class="icons" name="logo-linkedin"></ion-icon>
+                    <p>Perfil Linkedin</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/faelagls/" target="_blank">
+                    <ion-icon class="icons" name="logo-instagram"></ion-icon>
+                    <p>Perfil Instagram</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/faellira" target="_blank">
+                    <ion-icon class="icons" name="logo-github"></ion-icon>
+                    <p>Portfólio github</p>
+                </a>
+
+            </li>
+        </ul>
     </div>
-    <div id="description">
-        <h1>Rafael A L Souza</h1>
-        <p>Trabalhei por um pequeno periodo como Freelancer de Design, criando artes de divulgação, e agora
-            estou me aventurando na área do Front-end, durante meu Ensino médio cheguei a cursar Técnico em informática, que foi
-            onde tive meu primeiro contato com programação, hoje estou em busca da primeira oportunidade na área. 
-        </p>
-    </div>
-    <div id="btn-switch" onclick="ThemeMode()" onmouseenter="">
-        <button></button>
-        <span></span>
-    </div>
-    <ul>
-        <li>
-            <a href="mailto:rafaelirasouza@gmail.com" target="_blank">
-                <ion-icon class="icons" name="mail-open-outline"></ion-icon>
-                <p>Email para contato</p>
-            </a>
-        </li>
-        <li>
-            <a href="https://www.linkedin.com/in/rafael-a-l-souza-026ab71a5/" target="_blank">
-                <ion-icon class="icons" name="logo-linkedin"></ion-icon>
-                <p>Perfil Linkedin</p>
-            </a>
-        </li>
-        <li>
-            <a href="https://www.instagram.com/faelagls/" target="_blank">
-                <ion-icon class="icons" name="logo-instagram"></ion-icon>
-                <p>Perfil Instagram</p>
-            </a>
-        </li>
-        <li>
-            <a href="https://github.com/faellira" target="_blank">
-                <ion-icon class="icons" name="logo-github"></ion-icon>
-                <p>Portfólio github</p>
-            </a>
-            
-        </li>
-    </ul>
-</div>
 </body>
 <script src="./script.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </html>
